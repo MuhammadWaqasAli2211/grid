@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap: 20px;
+    border: 1px solid black;
+    padding: 0.5%;
+    height: 100%;
+    width: 100%;
+    }
+.main-box{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+.box1{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+.box2{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+}
